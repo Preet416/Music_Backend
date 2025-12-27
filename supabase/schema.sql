@@ -1,0 +1,2 @@
+-- Define tables: users, tracks, podcasts, playlists, playlist_tracks, recently_played
+-- Use Supabase SQL editor or migrations to complete.
