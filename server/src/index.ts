@@ -4,6 +4,11 @@ import apiRouter from "./routes";
 
 const app = express();
 
+app.get("/", (req, res) => {
+  res.send("Backend running ✅");
+});
+
+
 // CORS middleware
 app.use(
   cors({
