@@ -1,1 +1,9 @@
-export const dummyMiddleware = (req, res, next) => next();
+import { Request, Response, NextFunction } from "express";
+
+export const dummyMiddleware = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  next();
+};
